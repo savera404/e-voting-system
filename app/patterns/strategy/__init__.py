@@ -1,0 +1,1 @@
+from app.patterns.strategy.vote_counting_strategy import VoteCounter
