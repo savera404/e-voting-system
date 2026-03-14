@@ -131,9 +131,7 @@ class ConstituencyMatchHandler(VoteHandler):
 
 # ── Chain Builder ──────────────────────────────────────────────────────────
 
-"""
-This links all 5 handlers together and returns the first one (head). The backslash \ just means the line continues — it's one long statement broken across multiple lines for readability.
-"""
+
 
 class VoteValidationChain:
     """Assembles and returns the head of the validation chain."""

@@ -3,3 +3,4 @@ from .candidate import Candidate
 from .vote import Vote
 from .election import Election
 from .location import Province, City, District, Constituency
+from app.models.admin import Admin
